@@ -1,0 +1,61 @@
+body{
+    background-color:#111111;
+
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-family: "Press Start 2P","consolas",sans-serif;
+    border-top:#00FF73 dashed ;
+    border-bottom:#00FF73 dashed ;
+}
+h1:hover{
+    color: #00FF73;
+    border-top:#ff0000 double ;
+    border-bottom:#ff0000 double ;
+}
+p{
+    color: #00FF73;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border: outset;
+    border-width: 2px;
+    padding: 10px;
+    border-color:red ;
+}
+.box{
+    width: auto;
+    height: 700px;
+    border: red 2px solid;
+    padding: 10px;
+    background-color:#14C9CC;
+}
+.left-box{
+    width: 40%;
+    height: 700px;
+    background-color: #000000;
+    
+}
+
+button{
+    clear: right;
+    width: 80px;
+    height: 40px;
+    border-radius: 30%;
+    color: #016c31;
+    font-weight: bold;
+    background-color: #fff;
+    border:red solid 3px ;
+    position: relative; 
+    left: 50%;  
+    transform: translateX(-50%);
+}
+
+button:hover{
+    background-color: #00FF73;
+    color: #111111;
+}
+
